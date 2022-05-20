@@ -1,0 +1,16 @@
+.sobre{
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.sobre__sobretitulo{
+    font-family:pacifico;
+    color: darkred;
+    font-size: 2.05rem;
+}
+
+.sobre__descricao{
+    color: gray;
+    font-weight: 100;
+    font-size: 1.5rem;
+}

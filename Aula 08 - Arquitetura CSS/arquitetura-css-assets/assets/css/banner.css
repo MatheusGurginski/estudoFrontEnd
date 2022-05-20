@@ -1,0 +1,22 @@
+.banner{
+    position: relative;
+}
+
+.banner__imagem{
+    height: calc(100vh - 72px);
+    width: 100%;
+}
+
+.banner__titulo{
+    font-family: pacifico;
+    color: #f8f8f8f8;
+    font-size: 5.0625rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    transform:translate(-50%, -50%);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+
+}

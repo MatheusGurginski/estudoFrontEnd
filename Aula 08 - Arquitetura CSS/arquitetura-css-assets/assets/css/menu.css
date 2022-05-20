@@ -1,0 +1,25 @@
+.menu__lista {
+    display: flex;
+    list-style: none;
+    
+}
+
+.menu__itens:last-child .menu__link {
+    margin-right: 0;
+}
+
+.menu__link {
+    color: #000000;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    text-transform: lowercase;
+
+}
+
+.menu__link.ativo{
+font-weight: bold;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}

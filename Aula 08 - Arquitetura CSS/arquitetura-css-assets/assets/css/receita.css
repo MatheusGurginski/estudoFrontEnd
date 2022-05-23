@@ -5,7 +5,7 @@
     padding: 5rem 0 0 5rem;
 }
 
-.receita{
+.receita {
     background: #fdfdfd;
     display: flex;
     flex-direction: column;
@@ -14,24 +14,25 @@
     width: calc(25% - 5rem);
 }
 
-.receita__imagem{
+.receita__imagem {
     height: 200px;
 }
 
-.receita__conteudo{
+.receita__conteudo {
     padding: 1rem
 }
-.receita__titulo{
-font-size: 1.4375rem;
+
+.receita__titulo {
+    font-size: 1.4375rem;
 }
 
-.receita__descricao{
-font-size: 1.1875rem;
-line-height:1.5;
-text-align: justify;
+.receita__descricao {
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
 }
 
-.receita__botao{
+.receita__botao {
     background: darkred;
     font-size: smaller;
     padding: 0.7rem;
@@ -41,7 +42,7 @@ text-align: justify;
     transition: all .1s ease-in-out;
 }
 
-.receita__botao:hover{
+.receita__botao:hover {
     background: #620404;
     cursor: pointer;
 }

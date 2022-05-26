@@ -1,50 +1,74 @@
-.pessoas{
-    display:flex;
+.pessoas {
+    display: flex;
     justify-content: space-around;
     padding-top: 3rem;
 }
 
-.pessoa{
+.pessoa {
     display: flex;
     flex-direction: column;
 }
 
-.pessoa__imagem{
+.pessoa__imagem {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 100%;
     height: 300px;
-    margin: 0 auto ;
+    margin: 0 auto;
     width: 300px;
-    
+
 
 }
 
-.pessoa__imagem--roberta{
+.pessoa__imagem--roberta {
     background-image: url('../img/pessoas/roberta.jpg');
 }
 
-.pessoa__imagem--marcela{
+.pessoa__imagem--marcela {
     background-image: url('../img/pessoas/marcela.jpg')
 }
 
-.pessoa__imagem--andreia{
+.pessoa__imagem--andreia {
     background-image: url('../img/pessoas/andreia.jpg')
 }
 
-.pessoa__nome{
-    color:darkred;
+.pessoa__nome {
+    color: darkred;
     font-family: pacifico;
     font-size: 2rem;
     margin: 1rem 0;
-    
-    
+
+
 }
 
-.pessoa__funcao{
+.pessoa__funcao {
     color: gray;
     font-size: 1.25rem;
     text-transform: lowercase;
-    
+
+}
+
+@media screen and (min-width: 0) {
+    .pessoas {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pessoas {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 0) {
+    .pessoa {
+       margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pessoa {
+        margin-bottom: 0;
+    }
 }
